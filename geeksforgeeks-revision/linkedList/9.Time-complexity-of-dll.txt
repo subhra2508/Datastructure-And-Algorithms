@@ -1,0 +1,11 @@
+The time complexity of the doubly linkedlist is 
+
+-----------------------------Time complexity:wrost case----------------------Time complexity:avg case----------
+
+inserting at begining or end       o(1)                                            o(1)
+
+delete at begining or end          o(1)                                            o(1)
+
+search                             o(n)                                            o(n)
+
+Access                             o(n)                                            o(n)

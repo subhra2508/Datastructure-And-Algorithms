@@ -1,0 +1,5 @@
+1.longest common subsequence (recursive,buttom up(memoization),top down)
+2.print LCS
+3.shortest common supersequence
+4.print scs
+5.min no of insertion and deletion a->b

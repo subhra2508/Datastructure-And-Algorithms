@@ -1,0 +1,3 @@
+The time complexity of single linkedlist is 
+The average time complexity of ssl is o(n)
+The worst time complexity of ssl is o(1)
