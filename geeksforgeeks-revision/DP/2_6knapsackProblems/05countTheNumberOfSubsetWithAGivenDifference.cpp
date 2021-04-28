@@ -1,3 +1,5 @@
+ //count the number of subset with given difference
+
 #include<bits/stdc++.h>
 using namespace std;
 int countOfSubsetSum(int arr[],int n,int sum){
@@ -24,7 +26,7 @@ int main(){
    int arr[]={1,1,2,3};
    int sumOfArray=7;
    int diff=2;
-   int sum=(diff+sumOfArray)/2;
+   int sum=(sumOfArray+diff)/2;//S1+S2=SUM(ARR)---(1)//S1-S2=DIFF//BY ADDING TWO EQUATION WE GET THE FOLLOWING
    int sizeOfArray=4;
    cout<<countOfSubsetSum(arr,sizeOfArray,sum);
 }

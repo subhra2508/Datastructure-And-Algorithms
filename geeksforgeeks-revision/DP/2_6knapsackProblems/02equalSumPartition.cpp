@@ -1,4 +1,8 @@
-#include<bits/stdc++.h>
+// Partition problem is to determine whether a 
+// given set can be partitioned into two subsets such that 
+// the sum of elements in both subsets is the same. 
+// #include<bits/stdc++.h>
+
 using namespace std;
 bool subSetSum(int arr[],int n,int sum){
 	bool dp[n+1][sum+1];

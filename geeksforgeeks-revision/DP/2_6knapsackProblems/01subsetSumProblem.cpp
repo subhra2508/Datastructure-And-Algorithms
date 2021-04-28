@@ -1,6 +1,8 @@
+// Given a set of non-negative integers,
+// and a value sum, determine if there is a subset of the given set with sum equal to given sum.
 #include<bits/stdc++.h>
 using namespace std;
-int subsetSum(int arr[],int sum,int n){
+int subsetSum(int arr[],int sum,int n){  
 	int dp[n+1][sum+1];
 	for(int i=0;i<n+1;i++){
 		 dp[i][0]=1;
