@@ -18,10 +18,6 @@ Explanation:
 
 There are 5 ways to assign symbols to make the sum of nums be target 3.
 */
-
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
 int targetSum(int arr[],int n,int sum){
@@ -50,6 +46,6 @@ int main(){
   //int sum=2;
   int diff=2;
   int arrayRange=7;
-  int sum =( diff+arrayRange)/2;
+  int sum =( diff+arrayRange)/2;//sum1-sum2=diff//sum1+sum2=range//2sum1=range+diff//
   cout<<targetSum(arr,arraySize,sum)<<endl;
 }
