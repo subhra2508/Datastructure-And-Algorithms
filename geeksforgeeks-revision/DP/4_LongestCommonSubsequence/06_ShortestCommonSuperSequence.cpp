@@ -1,3 +1,15 @@
+// Given two strings str1 and str2,
+// the task is to find the length
+// of the shortest string that has both str1 and str2 as subsequences.
+
+// example :
+// Input:   str1 = "geek",  str2 = "eke"
+// Output: 5
+// Explanation: 
+// String "geeke" has both string "geek" 
+// and "eke" as subsequences. 
+
+
  #include<bits/stdc++.h>
 using namespace std;
 int LCS(string s1,string s2,int n,int m){
@@ -21,7 +33,7 @@ int shortestCommonSupersequence(string s1,string s2){
 	int n=s1.length();
 	int m=s2.length();
 	int total=n+m;
-	return total-LCS(s1,s2,n,m);
+	return total-LCS(s1,s2,n,m);//the common are present in both the string so double is minus
 }
 int main(){
 	string s1="geek";

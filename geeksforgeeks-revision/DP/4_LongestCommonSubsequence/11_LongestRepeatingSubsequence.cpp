@@ -1,3 +1,8 @@
+// As another example, if the given sequence is “BBABCBCAB”, 
+// then the output should be 7 as “BABCBAB” is the longest palindromic subsequence in it.
+// “BBBBB” and “BBCBB” are also palindromic subsequences of the given sequence, but not the longest ones.
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int longestRepeatingSubsequence(string s){

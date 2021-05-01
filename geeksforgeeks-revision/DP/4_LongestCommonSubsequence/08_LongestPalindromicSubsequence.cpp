@@ -1,3 +1,6 @@
+
+//Given a sequence, find the length of the longest palindromic subsequence in it.
+
 #include<bits/stdc++.h>
 using namespace std;
 int LongestCommonSubsequence(string s1,string s2){

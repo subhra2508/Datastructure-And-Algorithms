@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int LCS();
+int LCS();//write LCS();
 int main(){
      string s="agbcba";
 	 string s1=s;

@@ -16,7 +16,7 @@ int LongestCommonSubstring(string s1,string s2,int n,int m){
 				dp[i][j]=0;
 		}
 	}
-	return result;
+	return result; 
 }
 int main(){
     string s1="subhra";

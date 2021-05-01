@@ -1,3 +1,19 @@
+
+// Given two strings X and Y, print the
+// shortest string that has both X and Y as subsequences. 
+// If multiple shortest supersequence exists, print any one of them.
+
+// example -->
+
+// Input: X = "AGGTAB",  Y = "GXTXAYB"
+// Output: "AGXGTXAYB" OR "AGGXTXAYB" 
+// OR Any string that represents shortest
+// supersequence of X and Y
+
+
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 string LCS(string s1,string s2){
