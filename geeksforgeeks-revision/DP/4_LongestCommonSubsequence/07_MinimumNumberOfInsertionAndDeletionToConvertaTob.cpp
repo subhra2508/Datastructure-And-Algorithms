@@ -40,5 +40,5 @@ void minNumInsertionAndDeletion(string s1,string s2){
 	cout<<"Deletion = "<<deletion<<endl;
 }
 int main(){
-   minNumInsertionAndDeletion("subhrajyoti","sankar");
+   minNumInsertionAndDeletion("heap","sankar");
 }
