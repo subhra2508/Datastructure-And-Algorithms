@@ -1,5 +1,5 @@
 //minimum number of partition required to make all the partition palindromic
-//nitin so--n--iti--n
+//nitin so-> -n--iti--n
 
 #include<bits/stdc++.h>
 using namespace std;
