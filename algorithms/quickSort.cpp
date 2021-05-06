@@ -1,16 +1,18 @@
 //https://www.youtube.com/watch?v=COk73cpQbFQ
 
+//the time comlexity of quicksort is O(n logn) is the best case
+//worst case is O(n^2)
 
 int partition(int arr[],int start,int end){
-	pivote=arr[end];
-	partition_index=arr[start];
+	int pivote=arr[end];
+	int p_index=start;
 	for(int i=start;i<end;i++){
 		if(arr[i]<=pivote){
-			swap(arr[i],partition_index);
+			swap(arr[i],arr[p_index]);
 			partition_index++;
 		}
 	}
-	swap(arr[partition_index],arr[end]);
+	swap(arr[p_index],arr[end]);
 	return partition_index;
 }
 
