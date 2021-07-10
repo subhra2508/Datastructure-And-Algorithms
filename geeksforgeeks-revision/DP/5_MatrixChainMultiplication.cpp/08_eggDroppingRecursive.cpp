@@ -15,3 +15,5 @@ int main(){
 	int f=10;
 	cout<<solve(e,f)<<endl;
 }
+
+//navigator.geolocation.getCurrentPosition(function(),function(){})
