@@ -28,3 +28,25 @@ int main(){
 	[](){cout<<"subhrajyoti sankar sau.";};
 	return res;
 }
+// -----------------------------------------------------
+pair<int,int>diameterOfBinaryTreeHelper(Node*root){
+	if(!root)return make_pair(0,0);
+
+	pair<int,int>left = diameterOfBinaryTreeHelper(root->left);
+	pair<int,int>right = diameterOfBinaryTreeHelper(root->right);
+
+	//this gives a value max path in either left subtree or right subtree
+	int internal_path = max(left.second,right.second);
+
+	//here when we add the root node if the that gives us the maximum then we update the internal path
+	if(left.first+right.first+1>internal_path){
+		internal_path=left.first+right.first+1;
+	}
+	return make_pair(max(left.first,right.first)+1,internal_path)
+}
+int diameterOfBinaryTree(Node*root){
+	if(!root)return 0;
+	pair<int,int>result = diameterOfBinaryTreeHelper(root);
+	return max(result.first,result.second)-1;
+}
+//----------------------------------------------------------------
