@@ -21,12 +21,23 @@ Node*FindMin(Node*root){
 }
 Node*deleteNode(Node*root,int data){
 	if(root==NULL)return nullptr;
+
+	// If the key to be deleted is
+    // smaller than the root's
+    // key, then it lies in left subtree
 	else if(data <root->data){
 		root->left = deleteNode(root->left,data);
 	}
+
+    // If the key to be deleted is
+    // greater than the root's
+    // key, then it lies in right subtree
 	else if(data > root->data){
 		root->right = deleteNode(root->right,data);
 	}
+
+	// if key is same as root's key, then This is the node
+    // to be deleted(root->data == data ) this is the else case
 	else{//wohoo... I found you , Get ready to be deleted
 
          //Case 1:No child
@@ -37,22 +48,19 @@ Node*deleteNode(Node*root,int data){
 		}
 		//case 2: one child
 		else if (root->left == NULL){
-			Node*temp = root;
-			root = root->right;
-			delete temp;
-			return root;
+			struct node* temp = root->right;
+            free(root);
+            return temp;
 		}
 		else if(root->right == NULL){
-			Node*temp = root->left;
-			root = root->left;
-			delete temp;
-			return root;
+			struct node* temp = root->left;
+            free(root);
+            return temp;
 		}
-		else{
-			Node* temp = FindMin(root->right);
-			root->data = temp->data;
-			root->right = deleteNode(root->right,temp->data);
-			return root;
-		}
-	}
+		 // when we have both childs
+        Node*temp = findMin(root->right);
+        root->data = temp->data;
+        root->right = deletionBT(root->right,temp->data);
+    }
+    return root;
 }
