@@ -38,3 +38,7 @@ void findPostOrder(int pre[],int n){
 	 }
 	 return root;
  }
+
+//not working
+//authentication
+//

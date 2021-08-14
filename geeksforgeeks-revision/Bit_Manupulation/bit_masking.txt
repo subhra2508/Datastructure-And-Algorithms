@@ -1,0 +1,46 @@
+find the ith bit
+
+n =>    100110101
+mask => 000100000 (left shift one to 5 times) 1<<i
+-------------------------------
+n&mask -> if it is non-zero then its surely 1 otherwise 0
+
+
+set the 3 bit of below number to 1
+
+n  =>   100110101
+mask => 000001000
+--------------------
+n = n | mask
+
+set the 4 bit of below number to 0
+
+n    =>  100110101
+mask =>  111101111   ~(1<<i) (first left shift 1 to i times than invert)
+----------------------
+result = n & mask
+
+
+find number of bits to change to convert a to b :
+
+a -> 10110
+b -> 11011
+---------------
+a^b->01101 find the number of ones or how many times set bit in this
+
+int a = 13; 
+
+1101 right shift it 
+
+0110  (1)
+ 
+0011
+       (2)
+0001
+        (3)
+0000
+
+n & (n-1) => makes the least significant bit to 0
+
+
+how many digits are in a number n => log(base2)n + 1

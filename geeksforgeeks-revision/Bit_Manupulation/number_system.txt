@@ -1,0 +1,57 @@
+1.digits
+2.base 
+
+
+decimal 
+0-9 
+base : 10
+
+(123)10
+
+binary 0,1
+base : 2
+
+LSB(least significant bit)
+MSB(most significant bit)
+
+101101
+
+last one is : lsb
+first one is :MSB
+
+
+operators :
++,-,/,* : decimal
+
+binary operators:
+and &
+or |
+NOT ~
+<< left shift
+>> right shift
+xor ^
+
+101 << 1 :left shift one so result is 1010
+101 <<2  :left shift one so result is 10100
+
+101 >>1 : right shift one so result is 10
+101 >> 2 : result is 1
+
+
+how to perform - in binary number system
+
+101 - five
+
+make it 2's compliment 
+1.invert all bits
+2.add one
+
+so 010 + 1 = 011
+
+then add these two
+101 + 011 
+
+swap two numbers using bit wise operators
+a = a^b;
+b=a^b;
+a=a^b;
