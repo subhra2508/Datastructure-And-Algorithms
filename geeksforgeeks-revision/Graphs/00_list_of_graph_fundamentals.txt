@@ -1,0 +1,46 @@
+Graph data structure
+
+(coding blocks)
+1. https://www.youtube.com/watch?v=iv5DcAi411I&list=PLl4Y2XuUavmtTOvFcW3HfI1oQ3hsgkB3a
+
+(fit coder)
+2. https://www.youtube.com/watch?v=4xMsNIPEkwA&list=PLFj4kIJmwGu3m30HfYDDufr3PZBfyngr0
+
+(mycodeschool)
+3. https://www.youtube.com/watch?v=gXgEDyodOJU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=38 (done)
+
+TOPICS TO READ IN GRAPH DATA STRUCTURE :
+
+what and why of graphs (done)
+graphs terminologies (done)
+types of graphs (done)
+graph representation in code (done)
+BFS algorithm (done)
+BFS Time complexity
+DFS algorithm
+DFS time complexity
+BFS vs DFS
+what is topological sort
+Topological sort dry run
+how topological sort works
+Topological sort Algorithm
+what is single source shortest path problem
+BFS vs SSSP
+why BFS does not work for weighted Graph SSSP
+why DFS does not work for SSSP
+Dijkstra for SSSP
+why Dijkstra does not work for negetive cycle
+BellmanFord Dry run for SSSP
+BellmanFord algorithm for SSSP
+how BellmanFord works for Negetive cycle
+why BellmanFord runs for v-1 times
+BFS vs Dijkstra vs BellmanFord
+what is all pair shortest path problem
+what is Floyd warshall algorithm for APSP
+why Floyd doesn't work for negetive cycle
+BFS vs Dijkstra vs Bellman vs Floyd
+what is minimum spanning Tree
+Disjoint set
+Kruskals Algorithm
+Prime Algorithm
+
