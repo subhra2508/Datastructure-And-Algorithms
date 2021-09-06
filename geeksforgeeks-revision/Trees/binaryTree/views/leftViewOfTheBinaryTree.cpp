@@ -7,8 +7,6 @@ void leftView(struct Node *root)
 }
 
 
-
-
 void leftViewUtil(Node*root,int level,int *max_level){
 	if(root==NULL)return ;
 	if(*max_level < level){

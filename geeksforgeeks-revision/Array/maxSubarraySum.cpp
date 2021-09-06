@@ -16,7 +16,7 @@ int maxSubarraySum(int arr[],int size){
 	}
 	return max_so_far;
 }
-// i guess this is easy right ???
+// I guess this is easy right ???
 int kadane(int arr[], int n)
 {
     // stores the maximum sum subarray found so far
