@@ -29,5 +29,3 @@ int main(){
   cout<<knapsack(wt,val,weight,n)<<endl;
 }
 
-//this year
-// nodejs,reactjs,django,firbase,html,css,js,c++,python,devops,deployment,
