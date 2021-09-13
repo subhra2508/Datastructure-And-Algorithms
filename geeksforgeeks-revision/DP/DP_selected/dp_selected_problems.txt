@@ -1,0 +1,104 @@
+- number of unique paths
+- string subsequence
+- maximum sum problem
+- knapsack with duplicate items
+- max sum without adjacents
+- stickler thief
+- you and your books
+- adjancent are not allowed
+- count number of hops
+- k-palindrome
+- longest repeating subsequence
+- k-palindrome
+- nth catalan number
+- activity selection
+- Nth fibonacci number
+- maximum dot product
+- largest zigzag sequence
+- reach the nth point
+- count all possible paths from top left to bottom right 
+- cutting binary string
+- rod cutting
+- count of string that can be formed using a,b,c under given constraints
+- minimum deletions
+- gold mine problem
+24 
+---------------------------------------------
+MEDIUM
+---------------------------------------------
+- count ways to n'th stair(order does not matter)
+- egg dropping puzzel
+- kadane's algorithm
+- player with max score
+- longest common subsequence
+- shortest common supersequece
+- trapping rain water
+- box stacking
+- max rectangle
+- 0-1 knapsack problem
+- coin change
+- max possible amount
+- longest increasing subsequence
+- distinct occurences
+- word break
+- unique BST's
+- wildcard pattern matching
+- form a palindrome
+- max-length chain
+- count ways to reach the n'th stair
+- smallest window in a string containing all the character of another string 
+- maximum path sum matrix
+- longest bitonic subsequence
+- floyd warshall
+- stock buy and sell
+- edit distance
+- maximum sum increasing subsequence
+- longest common substring
+- maximize the cut segment
+- partition equal subset sum
+- interleaved strings
+- job sequencing problem
+- unique partitions
+- distance from the source(bellman-ford algorithm)
+- min cut square
+- pots of gold game
+- minimum number of jumps
+- maximum product subarray
+- get minimum square
+- ways to sum to N
+- number of coins
+- mobile numeric keypad
+- two water jug problem
+- probability of knight
+- count subsequence of type a^i,b^j,c^k
+- largest square formed in a matrix
+- jump game
+- minimum steps to destination
+-consecutive 1's not allowed
+- brackets in matrix chain multiplication
+- perfect sum problem
+- snake and ladder problem
+- subset sum problem
+- count possible ways to construct buildings
+- largest sum subarray of size at least k
+- special keypad
+- maximum sum subsequence of length k
+- number of ways
+- count of n digit numbers whose sum of digits equals to given sum
+- longest arithmetic progression
+- water overflow
+- total decoding messages
+- special matrix
+- count number of substrings
+- count palindromic substring in an index range
+- count palindrom substring of a string
+- form a palindrome
+- longest common substring value of two numbers
+- LCS of three string
+- longest palindromic subsequence
+- maximum tip calculator
+- longest repeating and non-overlapping substring
+- number of paths in a matrix with k coins
+- word wrap
+- binary matrix with at most k 1s
+- maximum sum of element not part of LIS
