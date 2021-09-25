@@ -9,11 +9,11 @@ int partition(int arr[],int start,int end){
 	for(int i=start;i<end;i++){
 		if(arr[i]<=pivote){
 			swap(arr[i],arr[p_index]);
-			partition_index++;
+			p_index++;
 		}
 	}
 	swap(arr[p_index],arr[end]);
-	return partition_index;
+	return p_index;
 }
 
 
