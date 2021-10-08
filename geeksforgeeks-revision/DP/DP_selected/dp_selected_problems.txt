@@ -5,7 +5,7 @@
 - max sum without adjacents
 - stickler thief
 - you and your books
-- adjancent are not allowed
+- adjancent are not allowed 
 - count number of hops
 - k-palindrome
 - longest repeating subsequence
