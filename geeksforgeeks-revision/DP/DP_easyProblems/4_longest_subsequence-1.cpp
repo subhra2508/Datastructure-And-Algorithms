@@ -21,9 +21,20 @@ public:
 				// if the element is consecutive then 
 				//consider this subsequence and update
 				//dp[i] is required
-				if()
+				if(arr[i] == arr[j]-1 || arr[i]-1 == arr[j]){
+					dp[i]=max(dp[i],dp[j]+1);
+				}
 
 			}
 		}
+		//longest length will be the maximum value
+		// of dp array
+		int result = 1;
+		for(int i=0;i<n;i++){
+			if(result < dp[i]){
+				result = dp[i];
+			}
+		}
+		return result;
 	}
 }
