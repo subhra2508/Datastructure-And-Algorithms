@@ -16,22 +16,32 @@ graphs terminologies (done)
 types of graphs (done)
 graph representation in code (done)
 BFS algorithm (done)
-BFS Time complexity
-DFS algorithm
-DFS time complexity
+BFS Time complexity O(V+E),space cmplxty O(W) w-> max width
+
+DFS algorithm         (done)
+DFS time complexity Time complexity O(V+E),space cmplxty O(h) h -> maximum height of the graph 
+
 BFS vs DFS
+
+
 what is topological sort
 Topological sort dry run
 how topological sort works
 Topological sort Algorithm
+
+
 what is single source shortest path problem
 BFS vs SSSP
 why BFS does not work for weighted Graph SSSP
 why DFS does not work for SSSP
+
+Dijkstra algorithm -> for single source shortest path problem in a directed weighted graph
 Dijkstra for SSSP
 why Dijkstra does not work for negetive cycle
-BellmanFord Dry run for SSSP
-BellmanFord algorithm for SSSP
+
+BellmanFord Dry run for SSSP 
+BellmanFord algorithm for SSSP -> for single source shortest path problem in a directed unweighted graph
+
 how BellmanFord works for Negetive cycle
 why BellmanFord runs for v-1 times
 BFS vs Dijkstra vs BellmanFord

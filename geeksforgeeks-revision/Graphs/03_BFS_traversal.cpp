@@ -13,23 +13,24 @@ public:
 };
 
 //constructor
-Graph:Graph(int V){
+Graph::Graph(int V){
 	this->V = V;
 	adj = new list<int>[V];
 }
 
 
 //function to add an edge to graph
-void Graph:addEdge(int v,int w){
-	add[v].push_back(w);//add w to v's list.
+void Graph::addEdge(int v,int w){
+	adj[v].push_back(w);//add w to v's list.
 }
 
 
 //prints BFS traversal from a given source s
-void Graph:BFS(int s){
-	bool *visited = new bool[V];
+void Graph::BFS(int s){
+	// bool *visited = new bool[V];
+	vector<bool>visited(V);
 	for(int i=0;i<V;i++){
-		visisted[i]=false;
+		visited[i]=false;
 	}
 
 	list<int>queue;
