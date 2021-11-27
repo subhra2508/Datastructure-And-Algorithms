@@ -1,4 +1,4 @@
-Graph data structure
+   Graph data structure
 
 (coding blocks)
 1. https://www.youtube.com/watch?v=iv5DcAi411I&list=PLl4Y2XuUavmtTOvFcW3HfI1oQ3hsgkB3a
@@ -29,6 +29,7 @@ Topological sort dry run
 how topological sort works
 Topological sort Algorithm
 
+-------------------------------------------------------------------------
 
 what is single source shortest path problem
 BFS vs SSSP
@@ -38,17 +39,24 @@ why DFS does not work for SSSP
 Dijkstra algorithm -> for single source shortest path problem in a directed weighted graph
 Dijkstra for SSSP
 why Dijkstra does not work for negetive cycle
+----------------------------------------------------------------------------
+
 
 BellmanFord Dry run for SSSP 
 BellmanFord algorithm for SSSP -> for single source shortest path problem in a directed unweighted graph
 
 how BellmanFord works for Negetive cycle
 why BellmanFord runs for v-1 times
+-----------------------------------------------------------------
+
 BFS vs Dijkstra vs BellmanFord
 what is all pair shortest path problem
+------------------------------------------------------------------
+
 what is Floyd warshall algorithm for APSP
 why Floyd doesn't work for negetive cycle
 BFS vs Dijkstra vs Bellman vs Floyd
+-------------------------------------------------------------
 what is minimum spanning Tree
 Disjoint set
 Kruskals Algorithm
