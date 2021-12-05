@@ -40,6 +40,8 @@ void printSolution(int dist[]){
     }
 }
 
+// Function that implements Dijkstra's single source shortest path algorithm
+// for a graph represented using adjacency matrix representation
 void dijkstra(int graph[V][V],int src){
     int dist[V]; // the output array. dist[i] will hold the shortest distance from src to i 
     
