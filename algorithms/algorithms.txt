@@ -1,0 +1,46 @@
+searching :
+-------------
+linear search
+Binary search
+Depth First search
+Breadth First search
+
+
+Sorting:
+---------
+insertion sort
+heap sort
+merge sort
+selection sort
+quick sort
+counting sort
+
+
+
+Graphs:
+---------
+Kruskal's algo
+Dijkstra's algo
+Bellman Ford algo
+Floyd warshall algo
+Topological Sort
+Flood Fill algo
+Lee Algo
+
+
+Arrays:
+--------
+Kadane's algo
+Floyd's cycle , Detection algo
+KMP algo
+quick select algo
+Boyer-more majority vote algo
+
+
+
+Basic Algo's
+--------------
+Euclid's algo
+Union Find Algo
+Huffman coding compression algo 
+
