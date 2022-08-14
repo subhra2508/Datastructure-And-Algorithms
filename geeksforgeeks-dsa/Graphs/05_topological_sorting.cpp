@@ -4,6 +4,12 @@
 
 // we can implement it simply using : DFS + Stack
 
+// The Applications of Topological Sort are: 
+// Finding cycle in a graph. 
+// Operating System deadlock detection.
+//  Dependency resolution.
+
+
 
 #include<bits/stdc++.h>
 using namespace std;
