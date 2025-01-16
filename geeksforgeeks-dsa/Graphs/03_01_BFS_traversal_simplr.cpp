@@ -31,3 +31,6 @@ class solution {
         return bfs;
     }
 };
+
+
+//time_complexity = O(N)+O(2E) -> O(2E) is for the for loop and O(N) for the while loop
